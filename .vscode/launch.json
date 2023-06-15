@@ -9,9 +9,23 @@
             "type": "python",
             "request": "launch",
             "program": "log_analysis_lib.py",
-            "console": "integratedTerminal",
+            "console": "externalTerminal",
+            "justMyCode": true,
+            "args": ["gateway.log"]
+        },
+        {
+            "name": "Investigation",
+            "type": "python",
+            "request": "launch",
+            "program": "log_investigation.py",
+            "console": "externalTerminal",
             "justMyCode": true,
             "args": ["gateway.log"]
         }
+
+
+
+
     ]
+
 }
